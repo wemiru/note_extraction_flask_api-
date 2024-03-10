@@ -1,0 +1,11 @@
+version: "3.3"
+
+services:
+  multicare_flask_api:
+    container_name: multicare_flask_api
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 8080:8080
+    restart: on-failure

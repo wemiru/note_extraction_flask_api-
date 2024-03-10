@@ -1,0 +1,6 @@
+pandas
+langchain_openai
+langchain
+flask
+psycopg2-binary
+sqlalchemy==1.4.50
