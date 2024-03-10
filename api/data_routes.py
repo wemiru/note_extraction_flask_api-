@@ -16,7 +16,7 @@ from __main__ import app
 from etl.postgres_engine import postgres_engine
 
 # Setup the engine
-json_path = getcwd() + "/src/projects/project_2/etl/postgres_creds.json"
+json_path = getcwd() + "/etl/postgres_creds.json"
 
 # Global Query Parameters
 

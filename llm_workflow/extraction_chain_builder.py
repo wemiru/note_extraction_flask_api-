@@ -23,13 +23,13 @@ from etl.postgres_engine import postgres_engine
 from etl.mongo_engine import create_mongo_client
 
 # Path to OpenAI API Key
-api_key_path = getcwd() + "/src/projects/project_2/llm_workflow/openai_api_key.json"
+api_key_path = getcwd() + "/llm_workflow/openai_api_key.json"
 
 # Path to the PostgreSQL credentials
-postgres_path = getcwd() + "/src/projects/project_2/etl/postgres_creds.json"
+postgres_path = getcwd() + "/etl/postgres_creds.json"
 
 # MongoDB Path
-mongo_path = getcwd() + "/src/projects/project_2/etl/mongo_creds.json"
+mongo_path = getcwd() + "/etl/mongo_creds.json"
 
 # Update environment variables
 load_env_vars(file_path=api_key_path)
