@@ -14,4 +14,4 @@ import api.data_routes
 import api.test_routes
 
 # Run the app
-app.run(host='0.0.0.0', port=8080, debug=False)
+app.run(host='18.224.31.100', port=8080, debug=False)
