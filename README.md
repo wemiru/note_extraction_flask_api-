@@ -1,6 +1,6 @@
 # MultiCare Data ETL and Flask API Project
 
-[Live Project UR](http://18.224.31.100:8080/)
+[Live Project URL](http://18.224.31.100:8080/)
 
 ## Project Description
 
