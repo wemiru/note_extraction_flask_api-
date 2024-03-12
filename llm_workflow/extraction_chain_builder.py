@@ -16,7 +16,7 @@ def line_formatter():
 # Make adjustments to the system path
 current = dirname(realpath(__file__))
 parent = dirname(current)
-path.append(parent)
+path.append(parent) 
 
 # Importing PostgreSQL helper
 from etl.postgres_engine import postgres_engine
