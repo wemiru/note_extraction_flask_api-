@@ -60,7 +60,7 @@ def case_text():
     # Setup the cursor
     cursor = postgres_engine(file_path=json_path).connect()
 
-    # Define a PostgreSQL query
+    # Define a PostgreSQL query 
     query = f"""
         SELECT case_id, case_text
         FROM cases
