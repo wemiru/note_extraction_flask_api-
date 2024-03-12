@@ -9,7 +9,7 @@ def load_env_vars(file_path: str):
         vars = load(buffer)
     
     # Update the environment variables
-    environ.update(vars)
+    environ.update(vars) 
 
     # Clear the variables dictionary
     vars.clear()
