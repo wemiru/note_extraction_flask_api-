@@ -7,7 +7,7 @@ url = "https://ashfaq-nsclc-dataset.s3.amazonaws.com/sukrit_data/multicare_datas
 
 # Load into pandas DataFrame
 df = pd.read_csv(url)
-
+ 
 print("DataFrame read successfully.")
 
 # Configuration to JSON for PostgreSQL
