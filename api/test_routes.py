@@ -1,6 +1,6 @@
 from __main__ import app
 
-# Greeting route
+# Greeting route  
 @app.route("/greet")
 def greet():
     return "Hello"
