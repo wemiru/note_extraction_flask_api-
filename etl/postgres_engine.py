@@ -10,7 +10,7 @@ def load_db_config(file_path: str):
         # Get the dictionary from JSON File
         vars = load(buffer)
     
-    # Update environment variables 
+    # Update environment variables  
     environ.update(vars)
 
     # Clear the original vars to not expose in-memory
