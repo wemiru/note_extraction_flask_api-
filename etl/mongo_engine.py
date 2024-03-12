@@ -10,7 +10,7 @@ def load_db_config(file_path: str):
         vars = load(buffer)
     
     # Update environment variables
-    environ.update(vars)
+    environ.update(vars) 
 
     # Clear the original vars to not expose in-memory
     vars.clear()
