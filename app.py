@@ -1,7 +1,7 @@
 from flask import Flask
 
 
-# Create the app
+# Create the app 
 app = Flask(__name__)
 
 # Get routes for front-end
