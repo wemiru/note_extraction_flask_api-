@@ -9,4 +9,4 @@ class Properties(BaseModel):
     patient_gender: str
     patient_diagnosis: str
     patient_medical_history: str
-    patient_symptoms: List[str]
+    patient_symptoms: List[str] 
